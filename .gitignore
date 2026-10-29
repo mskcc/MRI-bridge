@@ -1,0 +1,26 @@
+# --- Outputs & artifacts ---
+*.png
+*.log
+*log
+*.h5
+*.cfg 
+*.dat
+/results
+# --- Python ---
+*.pyc
+__pycache__/
+**/__pycache__/
+*.egg-info/
+
+# --- Model weights ---
+*.pth
+
+# --- Editor ---
+.vscode/
+*.vscode
+
+# --- Task-specific subfolders ---
+**/deraining/
+**/inpainting/
+**/sr_orig/
+
